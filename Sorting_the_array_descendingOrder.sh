@@ -39,9 +39,9 @@ do
 	do
 		if (($(echo "${Arr[value1]} < ${Arr[value2]}"| bc -l)))
 		then
-			temporary=${Arr[value1]}
+			temp=${Arr[value1]}
 			Arr[value1]=${Arr[value2]}
-			Arr[value2]=$temporary
+			Arr[value2]=$temp
 		fi
 	done
 done
