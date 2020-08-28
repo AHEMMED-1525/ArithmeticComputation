@@ -45,7 +45,7 @@ do
 		fi
 	done
 done
-
+echo "Array in Descending order are : ${Arr[@]}"
 #Ascending order
 for (( value1=0; value1<${#Arr[@]}; value1++ ))
 do
@@ -59,4 +59,4 @@ do
       fi
    done
 done
-echo "Array in ascending order will be like: ${Arr[@]}"
+echo "Array in ascending order are : ${Arr[@]}"
