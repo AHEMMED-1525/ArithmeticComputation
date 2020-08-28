@@ -10,3 +10,4 @@ b=$Seconduser
 c=$Thirduser
 
 result=$((a+b*c))
+	echo "$a+$b*$c = $result"
