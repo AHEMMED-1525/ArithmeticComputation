@@ -53,9 +53,9 @@ do
    do
       if (($(echo "${Arr[value1]} > ${Arr[value2]}"| bc -l)))
       then
-         temp=${Arr[value2]}
-         Arr[value2]=${Arr[value1]}
-         Arr[value1]=$temp
+         temp=${Arr[value1]}
+         Arr[value1]=${Arr[value2]}
+         Arr[value2]=$temp
       fi
    done
 done
